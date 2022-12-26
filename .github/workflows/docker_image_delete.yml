@@ -6,7 +6,7 @@ on:
       image:
         description: "Image to delete"
         required: true
-        default: "ghcr.io/${{ github.repository }}"
+        default: "ghcr.io/arsdever/"
       tag:
         description: "Tag to delete"
         required: true
