@@ -16,6 +16,7 @@ RUN apt install -y \
 		git \
 		wget \
 		software-properties-common \
+		xvfb \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN apt update
